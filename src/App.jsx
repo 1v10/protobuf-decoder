@@ -42,8 +42,7 @@ function App() {
     <Container>
       <Header as="h1">Protobuf Decoder</Header>
       <p>
-        Tool to decode Protobuf without having the original .proto files. All
-        decoding is done locally via JavaScript.
+        Protobuf Convert
       </p>
       <Form>
         <Form.Group>
@@ -72,10 +71,6 @@ function App() {
       </Form>
       {result}
       <Divider />
-      <p>
-        Made by pawitp. Contribute on{" "}
-        <a href="https://github.com/pawitp/protobuf-decoder">GitHub</a>.
-      </p>
     </Container>
   );
 }
