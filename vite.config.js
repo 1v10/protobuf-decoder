@@ -3,7 +3,8 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   build: {
-    sourcemap: true
+    sourcemap: true,
+    outDir: 'dist'  // 添加这一行
   },
   plugins: [react()],
   test: {
