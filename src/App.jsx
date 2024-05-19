@@ -40,10 +40,7 @@ function App() {
 
   return (
     <Container>
-      <Header as="h1">Protobuf Decoder</Header>
-      <p>
-        Protobuf Convert
-      </p>
+      <Header as="h1">Protobuf Convert</Header>
       <Form>
         <Form.Group>
           <TextArea
