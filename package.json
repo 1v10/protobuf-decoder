@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "vite",
-    "build": "vite build --outDir build",
+    "build": "vite build", // 改为默认的 dist 目录
     "test": "vitest --run --globals --reporter verbose",
     "test:watch": "vitest --globals --reporter verbose --ui"
   },
